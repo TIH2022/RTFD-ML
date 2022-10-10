@@ -17,7 +17,7 @@ main() {
     echo "Could not create temp dir under $tmpFolder"
     exit 1
   fi
-  
+
   trap cleanup EXIT
 
   aws s3 cp $origin_model $WORK_DIR/model.tar.gz
@@ -25,12 +25,12 @@ main() {
   mkdir -p "$DATA_DIR"
   tar -xvf "$WORK_DIR"/model.tar.gz -C "$DATA_DIR" --wildcards '*.csv'
   aws s3 cp --recursive "$DATA_DIR" "$target_path"
-  
+
   aws s3 sync "$graph_data_path" "$target_path"
 }
 
 # deletes the temp directory
-function cleanup {      
+function cleanup {
   rm -rf "$WORK_DIR"
   echo "Deleted temp working directory $WORK_DIR"
 }

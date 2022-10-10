@@ -10,7 +10,7 @@
       "dom",
       "es2018"
     ],
-    "module": "CommonJS",
+    "module":"CommonJS",
     "noEmitOnError": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -23,7 +23,7 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "stripInternal": true,
-    "target": "ES2019"
+    "target":"ES2019"
   },
   "include": [
     ".projenrc.js",

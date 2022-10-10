@@ -2,4 +2,3 @@
 [submodule "neptune-python-utils"]
 	path = src/script-libs/amazon-neptune-tools
 	url = https://github.com/awslabs/amazon-neptune-tools.git
-

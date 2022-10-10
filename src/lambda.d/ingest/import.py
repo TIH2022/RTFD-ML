@@ -20,7 +20,7 @@ def ingestToS3(url, prefix):
         targetFilePath = f's3://{TargetBucket}/{prefix}/{i}.parquet'
         logger.info(f'Dumping {len(chunk.index)} records to {targetFilePath}.')
         wr.s3.to_parquet(chunk, targetFilePath)
-        
+
 def handler(event, context):
     logger.info(event)
 

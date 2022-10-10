@@ -9,7 +9,7 @@ sagemaker_client = boto3.client('sagemaker')
 
 def handler(event, context):
     logger.info(f'Receiving event {event}.')
-    
+
     try:
         response = sagemaker_client.describe_endpoint(
             EndpointName=event['EndpointName']

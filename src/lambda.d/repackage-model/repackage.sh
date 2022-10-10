@@ -17,7 +17,7 @@ main() {
     echo "Could not create temp dir under $tmpFolder"
     exit 1
   fi
-  
+
   trap cleanup EXIT
 
   aws s3 cp $origin_model $WORK_DIR/model.tar.gz
@@ -31,12 +31,12 @@ main() {
 }
 
 # deletes the temp directory
-function cleanup {      
+function cleanup {
   rm -rf "$WORK_DIR"
   echo "Deleted temp working directory $WORK_DIR"
 }
 
-# Makes sure that we provided (from the cli) 
+# Makes sure that we provided (from the cli)
 # enough arguments.
 check_args() {
   if (($# != 4)); then

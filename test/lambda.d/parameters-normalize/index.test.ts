@@ -2,6 +2,7 @@
 import { Callback, Context } from 'aws-lambda';
 import { ParametersOutput, normalize, DEFAULT_TRAINING_TIMEOUT } from '../../../src/lambda.d/parameters-normalize/index';
 
+
 describe('parameters normalize tests', () => {
 
   let callback: Callback<ParametersOutput>;

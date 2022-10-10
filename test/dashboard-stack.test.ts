@@ -1090,7 +1090,6 @@ describe('dashboard stack test suite', () => {
       },
     });
   });
-
   test('distributed dashboard website by s3 and cloudfront in aws-cn regions', () => {
     const context = deployToCNRegion();
 

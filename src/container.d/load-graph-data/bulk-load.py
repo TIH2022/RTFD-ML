@@ -46,7 +46,7 @@ bulkload = BulkLoad(
         region=args.region,
         update_single_cardinality_properties=True,
         fail_on_error=True)
-        
+
 load_status = bulkload.load_async()
 logger.info(f'Bulk load request from {targetDataPath} is submmitted.')
 

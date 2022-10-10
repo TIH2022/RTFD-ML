@@ -29,10 +29,10 @@ def get_features_and_labels(transactions_df, transactions_id_cols, transactions_
     logger.info(f'Feature columns: {feature_cols}')
     logger.info("Categorical columns: {}".format(transactions_cat_cols.split(",")))
     features = transactions_df.select(feature_cols)
-    
+
     kdf_features = features.to_koalas()
     kdf_features = ks.get_dummies(kdf_features, columns = transactions_cat_cols.split(",")).fillna(0)
-    
+
     features = kdf_features.to_spark()
     features = features.withColumn('TransactionAmt', fc.log10(fc.col('TransactionAmt')))
     logger.info("Transformed feature columns: {}".format(list(features.columns)))

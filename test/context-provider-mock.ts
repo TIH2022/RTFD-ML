@@ -3,6 +3,7 @@ import * as cxapi from '@aws-cdk/cx-api';
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 
+
 export interface MockVcpContextResponse {
   readonly vpcId: string;
   readonly vpcCidrBlock: string;
