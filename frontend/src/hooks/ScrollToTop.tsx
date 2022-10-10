@@ -14,4 +14,5 @@ const ScrollToTop: React.FC<RouteComponentProps> = ({ history }) => {
   return null;
 };
 
+
 export default withRouter(ScrollToTop);

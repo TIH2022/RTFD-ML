@@ -10,4 +10,5 @@ const DataLoading: React.FC = () => {
   );
 };
 
+
 export default DataLoading;

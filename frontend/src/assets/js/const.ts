@@ -4,6 +4,7 @@ export const SYS_GATEWAY_API_URL = '__FRAUD_DETECTION_SYS_APIGATEWAY_URL__';
 
 export const DEFAULT_PULLING_INTERVAL = 20 * 1000;
 
+
 export const POLLING_INTERVAL_LIST = [
   { value: 10 * 1000, name: '10seconds' },
   { value: 20 * 1000, name: '20seconds' },

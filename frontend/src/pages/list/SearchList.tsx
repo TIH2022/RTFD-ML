@@ -7,6 +7,7 @@ import ViewHeadlineIcon from '@material-ui/icons/ViewHeadline';
 import React from 'react';
 import List from './List';
 
+
 const SearchList: React.FC = () => {
   return (
     <div>

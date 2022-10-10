@@ -12,6 +12,7 @@ export const getTransactionStats = /* GraphQL */ `
     }
   }
 `;
+
 export const getFraudTransactions = /* GraphQL */ `
   query GetFraudTransactions($start: Int, $end: Int) {
     getFraudTransactions(start: $start, end: $end) {

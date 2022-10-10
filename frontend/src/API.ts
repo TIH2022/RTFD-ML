@@ -10,6 +10,7 @@ export type TransactionStats = {
   totalFraudAmount?: number,
 };
 
+
 export type Transaction = {
   __typename: "Transaction",
   id?: string,

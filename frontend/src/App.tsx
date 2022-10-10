@@ -26,6 +26,7 @@ const Loader = () => (
   </div>
 );
 
+
 const App: React.FC = () => {
   const [appLoading, setAppLoading] = useState(true);
 
