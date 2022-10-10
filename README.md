@@ -54,9 +54,6 @@ The solution is using graph database [Amazon Neptune][neptune] for real-time fra
 
 - Asia Pacific (Sydney):   ap-southeast-2
 
-
-See [deployment guide][deployment-guide] for detail steps.
-
 ### Deploy from source
 
 #### Prerequisites
