@@ -35,6 +35,7 @@ The solution uses below services consisting of the monitor system of fraudulent 
 - Mock up the online transactions via [AWS Step Functions][step-functions], which uses [test data in IEEE-CIS dataset][dataset] [requesting the API of fraud detection of transactions][sim-online-transactions]
 - [Amazon API Gateway][api-gateway] provides the authentication for AppSync interface and trigger the simulation of online transactions
 
+
 [dataset]: https://www.kaggle.com/c/ieee-fraud-detection/
 [vpc]: https://aws.amazon.com/en/vpc/
 [nat-gateway]: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html

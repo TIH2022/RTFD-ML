@@ -48,7 +48,6 @@ Aborting."
     exit 1
   fi
 }
-
 # Run the entry point with the CLI arguments
 # as a list of words as supplied.
 main "$@"

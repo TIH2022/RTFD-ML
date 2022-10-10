@@ -1,6 +1,7 @@
 #!/bin/bash -x
 set -o errexit
 
+
 export PATH=/opt/awscli/:$PATH
 
 main() {

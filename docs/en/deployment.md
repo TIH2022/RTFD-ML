@@ -50,7 +50,9 @@ This automated AWS CloudFormation template deploys the solution in the AWS Cloud
 8. On the **Review** page, review and confirm the settings. Check the box acknowledging that the template will create AWS Identity and Access Management (IAM) resources.
 9. Choose **Create stack** to deploy the stack.
 
+
 You can view the status of the stack in the AWS CloudFormation Console in the **Status** column. You should receive a CREATE_COMPLETE status in approximately thirty minutes.
+
 
 ## Step 2. Launch the pipeline of data processing, model training and deploying
 

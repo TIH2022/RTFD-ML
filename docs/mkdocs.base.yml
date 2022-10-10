@@ -14,6 +14,3 @@ extra:
     - name: English
       link: /realtime-fraud-detection-with-gnn-on-dgl/en/
       lang: en
-    - name: 简体中文
-      link: /realtime-fraud-detection-with-gnn-on-dgl/zh/
-      lang: zh-CN

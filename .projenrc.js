@@ -9,7 +9,6 @@ const tsExcludeConfig = {
   ],
 };
 
-
 const cdkAlphaDeps = [
   '@aws-cdk/aws-apigatewayv2-alpha',
   '@aws-cdk/aws-apigatewayv2-integrations-alpha',

@@ -1,6 +1,5 @@
 # GNN Fraud detection on DGL
 
-
 This folder contains below code,
 
 - train RGCN model with DGL by container image in Amazon SageMaker;
