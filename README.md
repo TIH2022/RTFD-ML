@@ -52,28 +52,7 @@ You can input below parameters to overrride the default parameters of model trai
 
 The solution is using graph database [Amazon Neptune][neptune] for real-time fraud detection and [Amazon DocumentDB][docdb] for dashboard. Due to the availability of those services, the solution supports to be deployed to below regions,
 
-- US East (N. Virginia):   us-east-1
-- US East (Ohio):   us-east-2
-- US West (Oregon):   us-west-2
-- Canada (Central):   ca-central-1
-- South America (São Paulo):   sa-east-1
-- Europe (Ireland):   eu-west-1
-- Europe (London):   eu-west-2
-- Europe (Paris):   eu-west-3
-- Europe (Frankfurt):   eu-central-1
-- Asia Pacific (Tokyo):   ap-northeast-1
-- Asia Pacific (Seoul):   ap-northeast-2
-- Asia Pacific (Singapore):   ap-southeast-1
 - Asia Pacific (Sydney):   ap-southeast-2
-- Asia Pacific (Mumbai):   ap-south-1
-- China (Beijing):   cn-north-1
-- China (Ningxia):   cn-northwest-1
-
-### Quick deployment
-
-Region name | Region code | Launch
---- | --- | ---
-Global regions(switch to above region you want to deploy) | ap-southeast-1(default) | [Launch](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=fraud-detection-on-dgl&templateURL=https://aws-gcr-solutions.s3.amazonaws.com/Realtime-fraud-detection-with-gnn-on-dgl-rel/latest/default/realtime-fraud-detection-with-gnn-on-dgl.template.json)
 
 
 See [deployment guide][deployment-guide] for detail steps.
